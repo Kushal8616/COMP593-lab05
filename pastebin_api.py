@@ -13,7 +13,7 @@ def create_pastebin_paste(title, body_text, expiration='1M', public=False):
     Returns:
         str: URL of the newly created paste if successful, None otherwise.
     """
-    api_url = 'https://pastebin.com/doc_api'
+    api_url = 'https://pastebin.com/api/api_post.php'
     api_dev_key = 'bencHhw8kke9o-NMzYxquDkqNeVCUgqP'  
     paste_params = {
         'api_dev_key': api_dev_key,
